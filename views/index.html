@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeForge</title>
+    <link rel="icon" type="image/png" sizes="196x196" href="/public/images/logo.png">
+    <!-- ====== CSS LINK ====== -->
+    <link rel="stylesheet" href="/public/css/style.css">
+    
+    <!-- ===== Font awesome LINK ====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="menu">
+            <input type="checkbox" id="check">
+            <div class="logo">
+                <img src="/public/images/logo.png" alt="">
+                <a href="/">CodeForge</a>
+            </div>
+            <ul class="list">
+                <label for="check" class="button cancel"><i class="fas fa-times"></i></label>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/feedback">Feedback</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><i class="fa-regular fa-moon mode-switch"></i></li>
+            </ul>
+            <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+    
+    <!-- Section and content -->
+    <div class="container">
+        <section class="content">
+            <div class="text">
+                <h1>Code to Create,</h1>
+            <h1>Create to Innovate</h1>
+            <p>Welcome to CodeForge - Your Gateway to Coding Excellence!
+
+                At CodeForge, we're passionate about empowering aspiring and seasoned developers, coders, and
+                tech enthusiasts with the knowledge and resources they need to thrive in the ever-evolving digital
+                landscape. You can become a prodigy in no time by regular practice and hardwork.</p>
+            </div>
+        <div class="button">
+            <input type="submit" class="btn learn" value="Learn  ">
+            <input type="submit" class="btn follow" value="Message Us">
+        </div>
+    </section>
+</div>
+
+<!-- Cards-->
+
+    <div class="container2">
+        <div class="title">
+        <h1>Programming Languages</h1>
+    </div>
+    <div class="cards">
+        <div class="wrapper">
+            <div class="card front-face">
+                <img src="/public/images/card1exp.png" alt="cover">
+            </div>
+            <div class="card back-face">
+                <img src="/public/images/card1exp.png" alt="cover">
+                <div class="info">
+                    <div class="title">C++ Language</div>
+                    <p>Versatility and <br> Efficiency</p>
+                </div>
+                <ul>
+                    <a href="https://devdocs.io/cpp/" target="_blank"><i class="fa-brands fa-wikipedia-w fa-bounce"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card front-face">
+                <img src="/public/images/card2exp.png" alt="cover">
+            </div>
+            <div class="card back-face">
+                <img src="/public/images/card2exp.png" alt="cover">
+                <div class="info">
+                    <div class="title">Java Language</div>
+                    <p>Platform-independent and <br> Object-oriented</p>
+                </div>
+                <ul>
+                    <a href="https://docs.oracle.com/en/java/javase/21/docs/api/index.html" target="_blank"><i class="fa-brands fa-wikipedia-w fa-bounce"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card front-face">
+                <img src="/public/images/card3exp.jpg" alt="cover">
+            </div>
+            <div class="card back-face">
+                <img src="/public/images/card3exp.jpg" alt="cover">
+                <div class="info">
+                    <div class="title">Python Language</div>
+                    <p>Flexible and <br> Readable</p>
+                </div>
+                <ul>
+                    <a href="https://docs.python.org/3.12/" target="_blank"><i class="fa-brands fa-wikipedia-w fa-bounce"></i></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Tabs -->
+
+<div class="tab-container">
+
+    <div class="container3">
+        <div class="main-title">More About Languages</div>
+    <div class="content">
+        <input type="radio" name="indicator" checked id="home">
+        <input type="radio" name="indicator" id="blog">
+        <input type="radio" name="indicator" id="help">
+        <input type="radio" name="indicator" id="code">
+        <input type="radio" name="indicator" id="about">
+        <div class="list">
+            <label for="home" class="home">
+                <i class="fa-solid fa-1 fa-beat"></i>
+                <!-- <i class="fas fa-home"></i> -->
+                <span class="topic">C</span>
+            </label>
+            <label for="blog" class="blog">
+                <i class="fa-solid fa-2 fa-beat"></i>
+                <!-- <i class="fas fa-blog"></i> -->
+                <span class="topic">C#</span>
+            </label>
+            <label for="help" class="help">
+                <i class="fa-solid fa-3 fa-beat"></i>
+                <!-- <i class="fas fa-envelope"></i> -->
+                <span class="topic">JavaScript</span>
+            </label>
+            <label for="code" class="code">
+                <i class="fa-solid fa-4 fa-beat"></i>
+                <!-- <i class="fas fa-code"></i> -->
+                <span class="topic">React</span>
+            </label>
+            <label for="about" class="about">
+                <i class="fa-solid fa-5 fa-beat"></i>
+                <!-- <i class="fas fa-user"></i> -->
+                <span class="topic">NodeJs</span>
+            </label>
+            <div class="indicator"></div>
+        </div>
+        <div class="text-content">
+            <div class="home text">
+                <div class="title">C</div>
+            <p>C, a powerful and widely-used programming language, was developed by Dennis Ritchie in the early 1970s at Bell Labs. Known for its efficiency and low-level capabilities, C serves as the foundation for various operating systems, including UNIX. Its simplicity and expressiveness make it a popular choice for system programming, embedded systems, and game development. C's influence extends to other languages like C++, C#, and Objective-C. Programmers appreciate its direct memory manipulation, allowing for precise control over hardware. Despite its age, C remains relevant due to its speed and portability, making it a fundamental language for understanding computer architecture and programming principles.</p>
+            </div>
+            <div class="blog text">
+                <div class="title">C#</div>
+            <p>C# (pronounced C-sharp) is a modern, versatile programming language developed by Microsoft in the early 2000s. Designed for building Windows applications, web services, and more, C# combines the power of C++ with the simplicity of Java. It is a key component of the .NET framework, providing a robust development environment. C# supports object-oriented, imperative, and component-oriented programming paradigms, making it suitable for a wide range of applications. With features like automatic memory management and type safety, C# enhances developer productivity and code reliability. Its continuous evolution, aided by regular updates, ensures that C# remains a relevant and efficient language for diverse software development projects.</p>
+        </div>
+        <div class="help text">
+                <div class="title">JavaScript</div>
+            <p>JavaScript, born in the mid-1990s, has evolved into a fundamental scripting language for web development. Initially designed to add interactivity to static HTML pages, it has grown into a versatile, multi-paradigm language. Executed on the client-side, JavaScript enables dynamic content, real-time updates, and interactive user experiences. With the rise of Node.js, JavaScript expanded to server-side development, unifying web application development. Its asynchronous capabilities enhance responsiveness. JavaScript is supported by all major browsers, making it a cornerstone for front-end development. Libraries like React and frameworks like Angular and Vue.js leverage its capabilities, solidifying JavaScript as a crucial language for full-stack and cross-platform development.</p>
+            </div>
+            <div class="code text">
+                <div class="title">React</div>
+            <p>React, developed by Facebook, is a powerful JavaScript library for building user interfaces. Launched in 2013, React revolutionized front-end development by introducing a component-based architecture. It enables developers to create reusable UI components, enhancing code modularity and maintainability. React's virtual DOM optimizes rendering efficiency, providing a smoother user experience. Widely adopted in single-page applications, React's declarative syntax simplifies UI development, allowing developers to describe the desired interface state, and letting React handle the updates efficiently. Its popularity led to the development of a rich ecosystem, including state management libraries like Redux. React's versatility, community support, and continuous innovation have solidified its place as a go-to solution for building modern, dynamic, and responsive web applications.</p>
+            </div>
+            <div class="about text">
+                <div class="title">NodeJs</div>
+            <p>Node.js, introduced in 2009, is a server-side JavaScript runtime that has transformed web development. Built on the V8 JavaScript engine, Node.js allows developers to use JavaScript for both client and server-side applications. Its event-driven, non-blocking architecture makes it highly efficient for handling concurrent requests, leading to scalable and performant web servers. Node.js facilitates building real-time applications, APIs, and microservices, with npm (Node Package Manager) providing a vast ecosystem of open-source libraries. Its lightweight nature and quick execution have made it a popular choice for developing scalable and data-intensive applications. Node.js has played a pivotal role in the rise of JavaScript as a full-stack development language, fostering a vibrant and active developer community.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Profile Cards  -->
+
+<div class="profile-container">
+    <div class="title">
+        <h1>Tutors</h1>
+    </div>
+    <div class="container4">
+        <div class="box">
+            <div class="image">
+                <img src="/public/images/pf1.jpg" alt="">
+            </div>
+            <div class="name">David Musk</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>
+                Experienced C++ tutor passionate about programming. Proven track record in simplifying complex concepts. Elevate your coding skills with personalized guidance and comprehensive support.</p>
+            <div class="btns">
+                <button>Read More </button>
+                <button>Follow</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/public/images/pf2.jpg" alt="">
+            </div>
+            <div class="name">Elena Dev</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Experienced Java tutor passionate about guiding learners. Expertise in core concepts, OOP, and application development. Committed to fostering a strong foundation in Java programming.</p>
+            <div class="btns">
+                <button>Read More </button>
+                <button>Follow</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="/public/images/pf3.jpg" alt="">
+            </div>
+            <div class="name">Sam Parker</div>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Experienced Python tutor, passionate about simplifying coding concepts. Equipping learners with Python skills for practical application and problem-solving. Join the transformative journey!</p>
+            <div class="btns">
+                <button>Read More </button>
+                <button>Follow</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact Us Form -->
+
+<div class="contact-container">
+    <div class="title">
+        <h1>Want to Share Something..?</h1>
+    </div>
+    <div class="container5">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">A-49, Alpha-1</div>
+                    <div class="text-two">Greater Noida</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">9696870585</div>
+                    <div class="text-two">1581518180</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">viditsrivastava760@gmail.com</div>
+                    <div class="text-two">venomgk89@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work from me or any type of queries related to my site, you can send me a message
+                    from here. It will be my pleasure to help you.</p>
+                <form action="/Message" method="post">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your name" class="name" name="name" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter your email" class="message-email" name="email" required>
+                    </div>
+                    <div class="input-box message-box">
+                        <textarea placeholder="Enter your message" name="message"></textarea>
+                    </div>
+                    <div class="button send-btn">
+                        <input type="submit" value="Send Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="content">
+        <div class="top">
+            <div class="logo-details">
+                <a href="/"><i class="fab fa-slack logo"></i></a>
+                <span class="logo_name">CodeForge</span>
+            </div>
+            <div class="media-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="link-boxes">
+            <ul class="box">
+                <li class="link_name">Company</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Contact</a></li>
+                <li><a href="/about">About us</a></li>
+                <li><a href="/">Get Started</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Services</li>
+                <li><a href="https://www.smashingmagazine.com/2018/02/comprehensive-guide-to-mobile-app-design/" target="_blank">App Design</a></li>
+                <li><a href="https://www.interaction-design.org/literature/topics/web-design" target="_blank">Web Design</a></li>
+                <li><a href="https://wepik.com/templates/coding-logo#search=coding-logo&page=1&rs=coding%20logo" target="_blank">Logo Design</a></li>
+                <li><a href="https://www.canva.com/banners/?utm_source=google_sem&utm_medium=cpc&utm_campaign=in_en_all_seeding_acq_conversion_banners_bm&utm_adgroup=in_en_all_seeding_acq_conversion_free-banners_bm&utm_keyword=free+banners&gclid=Cj0KCQiA35urBhDCARIsAOU7QwkdYiOv4Q7emDXbJF-TzPjlo2GGkiym2mqFo-V2Zf3TYo-1mTZ0R30aAulUEALw_wcB&gclsrc=aw.ds" target="_blank">Banner Design</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Account</li>
+                <li><a href="/about">Profile</a></li>
+                <li><a href="#">My Contact</a></li>
+                <li><a href="#">Preferences</a></li>
+                <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+                <li class="link_name">Courses</li>
+                <li><a href="https://scrimba.com/learn/htmlandcss" target="_blank">HTML and CSS</a></li>
+                <li><a href="https://edube.org/study/jse1?gad_source=1&gclid=Cj0KCQiA35urBhDCARIsAOU7Qwm7jaF4R8d-s0gW3hI01eM3d96wBG-g3nNkXm67W8pzT2tjGwkaRs8aAmt9EALw_wcB" target="_blank">JavaScript</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-java" target="_blank">Java</a></li>
+                <li><a href="https://www.mongodb.com/docs/manual/" target="_blank">MongoDB</a></li>
+            </ul>
+            <ul class="box input-box email-section">
+                <li class="link_name">Contact</li>
+                <li><input type="text" placeholder="Enter your email" class="email-id"></li>
+                <li><input type="button" value="Submit" class="submit-button"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-details">
+        <div class="bottom_text"><span class="copyright_text">Copyright &#169; 2023 <a href="/">CodeForge</a>All
+                rights reserved</span>
+            <span class="policy_terms">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+
+    
+    <!-- ======= JavaScript ======= -->
+    <script src="/public/js/script.js"></script>
+</body>
+</html>
