@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const mongoose = require('mongoose');
 const app = express();
-const port = 2000;
+const port = process.env.PORT || 2000;
 
 mongoose.connect('mongodb+srv://viditsri148:FdKxV92v4mcZbnW@e-learningapp.3ifdbvo.mongodb.net/contact');
 
