@@ -1,8 +1,10 @@
 const express = require("express");
 const path = require("path");
 const mongoose = require('mongoose');
+const cors = require("cors");
 const app = express();
 
+app.use(cors());
 
 require('dotenv').config();
 const dbURI = process.env.MONGODB_URI
