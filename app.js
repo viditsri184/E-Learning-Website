@@ -2,9 +2,16 @@ const express = require("express");
 const path = require("path");
 const mongoose = require('mongoose');
 const app = express();
-const port = process.env.PORT || 2000;
 
-mongoose.connect('mongodb+srv://viditsri148:FdKxV92v4mcZbnW@e-learningapp.3ifdbvo.mongodb.net/contact');
+
+require('dotenv').config();
+const dbURI = process.env.MONGODB_URI
+.replace('${MONGODB_USERNAME}', process.env.MONGODB_USERNAME)
+.replace('${MONGODB_PASSWORD}', process.env.MONGODB_PASSWORD);
+
+const port = process.env.PORT;
+// connect to the database using the connection string
+mongoose.connect(dbURI);
 
 const loginSchema = new mongoose.Schema({
     email: String,
