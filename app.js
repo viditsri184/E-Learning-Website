@@ -33,7 +33,7 @@ const signupSchema = new mongoose.Schema({
 const Login = mongoose.model('Login', loginSchema);
 const SignUp = mongoose.model('SignUp', signupSchema);
 const Message = mongoose.model('Message', messageSchema);
-const Contact = mongoose.model('Contact', messageSchema);
+const Contact = mongoose.model('Contact', contactSchema);
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
