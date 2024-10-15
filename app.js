@@ -11,7 +11,6 @@ const dbURI = process.env.MONGODB_URI
 .replace('${MONGODB_USERNAME}', process.env.MONGODB_USERNAME)
 .replace('${MONGODB_PASSWORD}', process.env.MONGODB_PASSWORD);
 
-const port = process.env.PORT;
 // connect to the database using the connection string
 mongoose.connect(dbURI);
 
@@ -123,6 +122,6 @@ app.post('/Contact', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`);
+app.listen(22, () => {
+    console.log(`Server listening at http://localhost:22`);
 });
